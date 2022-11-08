@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-07T18:55:10 IST" name="FBRegression" finished-at="2022-11-07T18:58:17 IST" duration-ms="186746">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T18:55:10 IST" name="Chrometest" finished-at="2022-11-07T18:56:54 IST" duration-ms="103462">
+      <class name="testpack.VerifyForgetAccLinkAndLogInPage">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:55:10 IST" name="launchTheBrowser" finished-at="2022-11-07T18:55:36 IST" duration-ms="25841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:55:53 IST" name="createPOMobjects" finished-at="2022-11-07T18:55:54 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:55:54 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:56:09 IST" duration-ms="15060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifyForgetAccLink()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:09 IST" name="VerifyForgetAccLink" finished-at="2022-11-07T18:56:29 IST" duration-ms="19735" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at testpack.VerifyForgetAccLinkAndLogInPage.VerifyForgetAccLink(VerifyForgetAccLinkAndLogInPage.java:92)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgetAccLink -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:29 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:56:32 IST" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyForgetAccLink status=FAILURE method=VerifyForgetAccLinkAndLogInPage.VerifyForgetAccLink()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:32 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:56:32 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifyLoginFuncationlity()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:32 IST" name="VerifyLoginFuncationlity" finished-at="2022-11-07T18:56:44 IST" duration-ms="11248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFuncationlity -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:44 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:56:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFuncationlity status=SUCCESS method=VerifyForgetAccLinkAndLogInPage.VerifyLoginFuncationlity()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:44 IST" name="clearObject" finished-at="2022-11-07T18:56:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@3daa422a]" started-at="2022-11-07T18:56:48 IST" name="closeTheBrowser" finished-at="2022-11-07T18:56:52 IST" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testpack.VerifyForgetAccLinkAndLogInPage -->
+      <class name="testpack.VerifySignupAndLangaugeChange">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:55:36 IST" name="launchTheBrowser" finished-at="2022-11-07T18:55:53 IST" duration-ms="17327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:55:53 IST" name="createPOMobjects" finished-at="2022-11-07T18:55:54 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:55:54 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:56:09 IST" duration-ms="15139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifySignUpPageFuncationlity()[pri:1, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:09 IST" name="VerifySignUpPageFuncationlity" finished-at="2022-11-07T18:56:23 IST" duration-ms="13449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignUpPageFuncationlity -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:23 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:56:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySignUpPageFuncationlity status=SUCCESS method=VerifySignupAndLangaugeChange.VerifySignUpPageFuncationlity()[pri:1, instance:testpack.VerifySignupAndLangaugeChange@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:23 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:56:25 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifyLangaugeChangeFuncationality()[pri:2, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:25 IST" name="VerifyLangaugeChangeFuncationality" finished-at="2022-11-07T18:56:48 IST" duration-ms="22916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLangaugeChangeFuncationality -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:48 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:56:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLangaugeChangeFuncationality status=SUCCESS method=VerifySignupAndLangaugeChange.VerifyLangaugeChangeFuncationality()[pri:2, instance:testpack.VerifySignupAndLangaugeChange@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:48 IST" name="clearObject" finished-at="2022-11-07T18:56:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@647e447]" started-at="2022-11-07T18:56:52 IST" name="closeTheBrowser" finished-at="2022-11-07T18:56:54 IST" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testpack.VerifySignupAndLangaugeChange -->
+    </test> <!-- Chrometest -->
+    <test started-at="2022-11-07T18:56:54 IST" name="Operatest" finished-at="2022-11-07T18:58:17 IST" duration-ms="82723">
+      <class name="testpack.VerifyForgetAccLinkAndLogInPage">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:56:54 IST" name="launchTheBrowser" finished-at="2022-11-07T18:57:04 IST" duration-ms="10194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:15 IST" name="createPOMobjects" finished-at="2022-11-07T18:57:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:15 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:57:34 IST" duration-ms="18687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifyForgetAccLink()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:34 IST" name="VerifyForgetAccLink" finished-at="2022-11-07T18:57:47 IST" duration-ms="12513" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at testpack.VerifyForgetAccLinkAndLogInPage.VerifyForgetAccLink(VerifyForgetAccLinkAndLogInPage.java:92)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgetAccLink -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:47 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:57:47 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyForgetAccLink status=FAILURE method=VerifyForgetAccLinkAndLogInPage.VerifyForgetAccLink()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:47 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:57:50 IST" duration-ms="2935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifyLoginFuncationlity()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:50 IST" name="VerifyLoginFuncationlity" finished-at="2022-11-07T18:57:54 IST" duration-ms="4024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFuncationlity -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:54 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:57:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFuncationlity status=SUCCESS method=VerifyForgetAccLinkAndLogInPage.VerifyLoginFuncationlity()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:57:54 IST" name="clearObject" finished-at="2022-11-07T18:57:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testpack.VerifyForgetAccLinkAndLogInPage@661972b0]" started-at="2022-11-07T18:58:01 IST" name="closeTheBrowser" finished-at="2022-11-07T18:58:08 IST" duration-ms="7352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testpack.VerifyForgetAccLinkAndLogInPage -->
+      <class name="testpack.VerifySignupAndLangaugeChange">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:04 IST" name="launchTheBrowser" finished-at="2022-11-07T18:57:15 IST" duration-ms="11018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMobjects()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:15 IST" name="createPOMobjects" finished-at="2022-11-07T18:57:15 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobjects -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:15 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:57:34 IST" duration-ms="18678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifySignUpPageFuncationlity()[pri:1, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:34 IST" name="VerifySignUpPageFuncationlity" finished-at="2022-11-07T18:57:43 IST" duration-ms="9332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignUpPageFuncationlity -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:43 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:57:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySignUpPageFuncationlity status=SUCCESS method=VerifySignupAndLangaugeChange.VerifySignUpPageFuncationlity()[pri:1, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="openFacebookHomePage()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:43 IST" name="openFacebookHomePage" finished-at="2022-11-07T18:57:45 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookHomePage -->
+        <test-method signature="VerifyLangaugeChangeFuncationality()[pri:2, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:57:45 IST" name="VerifyLangaugeChangeFuncationality" finished-at="2022-11-07T18:58:01 IST" duration-ms="16056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLangaugeChangeFuncationality -->
+        <test-method is-config="true" signature="logoutFromFacebook(org.testng.ITestResult)[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:58:01 IST" name="logoutFromFacebook" finished-at="2022-11-07T18:58:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLangaugeChangeFuncationality status=SUCCESS method=VerifySignupAndLangaugeChange.VerifyLangaugeChangeFuncationality()[pri:2, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFacebook -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:58:01 IST" name="clearObject" finished-at="2022-11-07T18:58:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testpack.VerifySignupAndLangaugeChange@5af3afd9]" started-at="2022-11-07T18:58:08 IST" name="closeTheBrowser" finished-at="2022-11-07T18:58:17 IST" duration-ms="8386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testpack.VerifySignupAndLangaugeChange -->
+    </test> <!-- Operatest -->
+  </suite> <!-- FBRegression -->
+</testng-results>

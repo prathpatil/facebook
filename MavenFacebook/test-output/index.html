@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FBRegression" class="navigator-link">
+              <span class="suite-name border-failed">FBRegression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FBRegression" class="navigator-link ">
+                    <span>C:\Users\Smart\eclipse-workspace\MavenFacebook\regressionsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FBRegression" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FBRegression" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FBRegression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FBRegression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FBRegression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FBRegression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FBRegression" class="hide-methods failed suite-FBRegression"> (hide)</a> <!-- hide-methods failed suite-FBRegression -->
+                      <a href="#" panel-name="suite-FBRegression" class="show-methods failed suite-FBRegression"> (show)</a> <!-- show-methods failed suite-FBRegression -->
+                    </span>
+                    <div class="method-list-content failed suite-FBRegression">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifyForgetAccLinkAndLogInPage" class="method navigator-link" hash-for-method="VerifyForgetAccLink">VerifyForgetAccLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifyForgetAccLinkAndLogInPage" class="method navigator-link" hash-for-method="VerifyForgetAccLink">VerifyForgetAccLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FBRegression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FBRegression" class="hide-methods passed suite-FBRegression"> (hide)</a> <!-- hide-methods passed suite-FBRegression -->
+                      <a href="#" panel-name="suite-FBRegression" class="show-methods passed suite-FBRegression"> (show)</a> <!-- show-methods passed suite-FBRegression -->
+                    </span>
+                    <div class="method-list-content passed suite-FBRegression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifySignupAndLangaugeChange" class="method navigator-link" hash-for-method="VerifyLangaugeChangeFuncationality">VerifyLangaugeChangeFuncationality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifySignupAndLangaugeChange" class="method navigator-link" hash-for-method="VerifyLangaugeChangeFuncationality">VerifyLangaugeChangeFuncationality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifyForgetAccLinkAndLogInPage" class="method navigator-link" hash-for-method="VerifyLoginFuncationlity">VerifyLoginFuncationlity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifyForgetAccLinkAndLogInPage" class="method navigator-link" hash-for-method="VerifyLoginFuncationlity">VerifyLoginFuncationlity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifySignupAndLangaugeChange" class="method navigator-link" hash-for-method="VerifySignUpPageFuncationlity">VerifySignUpPageFuncationlity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FBRegression" title="testpack.VerifySignupAndLangaugeChange" class="method navigator-link" hash-for-method="VerifySignUpPageFuncationlity">VerifySignUpPageFuncationlity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FBRegression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FBRegression" class="panel FBRegression">
+          <div class="suite-FBRegression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpack.VerifyForgetAccLinkAndLogInPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyForgetAccLink">
+                  </a> <!-- VerifyForgetAccLink -->
+                  <span class="method-name">VerifyForgetAccLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testpack.VerifyForgetAccLinkAndLogInPage.VerifyForgetAccLink(VerifyForgetAccLinkAndLogInPage.java:92)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyForgetAccLink">
+                  </a> <!-- VerifyForgetAccLink -->
+                  <span class="method-name">VerifyForgetAccLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testpack.VerifyForgetAccLinkAndLogInPage.VerifyForgetAccLink(VerifyForgetAccLinkAndLogInPage.java:92)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FBRegression-class-failed -->
+          <div class="suite-FBRegression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpack.VerifyForgetAccLinkAndLogInPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginFuncationlity">
+                  </a> <!-- VerifyLoginFuncationlity -->
+                  <span class="method-name">VerifyLoginFuncationlity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginFuncationlity">
+                  </a> <!-- VerifyLoginFuncationlity -->
+                  <span class="method-name">VerifyLoginFuncationlity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FBRegression-class-passed -->
+          <div class="suite-FBRegression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpack.VerifySignupAndLangaugeChange</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLangaugeChangeFuncationality">
+                  </a> <!-- VerifyLangaugeChangeFuncationality -->
+                  <span class="method-name">VerifyLangaugeChangeFuncationality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLangaugeChangeFuncationality">
+                  </a> <!-- VerifyLangaugeChangeFuncationality -->
+                  <span class="method-name">VerifyLangaugeChangeFuncationality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignUpPageFuncationlity">
+                  </a> <!-- VerifySignUpPageFuncationlity -->
+                  <span class="method-name">VerifySignUpPageFuncationlity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignUpPageFuncationlity">
+                  </a> <!-- VerifySignUpPageFuncationlity -->
+                  <span class="method-name">VerifySignUpPageFuncationlity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FBRegression-class-passed -->
+        </div> <!-- panel FBRegression -->
+        <div panel-name="test-xml-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Smart\eclipse-workspace\MavenFacebook\regressionsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;FBRegression&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Chrometest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpack.VerifyForgetAccLinkAndLogInPage&quot;/&gt;
+      &lt;class name=&quot;testpack.VerifySignupAndLangaugeChange&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrometest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Operatest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Opera&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpack.VerifyForgetAccLinkAndLogInPage&quot;/&gt;
+      &lt;class name=&quot;testpack.VerifySignupAndLangaugeChange&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Operatest --&gt;
+&lt;/suite&gt; &lt;!-- FBRegression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FBRegression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrometest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Operatest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FBRegression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FBRegression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FBRegression');
+function tableData_FBRegression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyLangaugeChangeFuncationality')
+data.setCell(0, 2, 'testpack.VerifySignupAndLangaugeChange')
+data.setCell(0, 3, 22916);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyForgetAccLink')
+data.setCell(1, 2, 'testpack.VerifyForgetAccLinkAndLogInPage')
+data.setCell(1, 3, 19735);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyLangaugeChangeFuncationality')
+data.setCell(2, 2, 'testpack.VerifySignupAndLangaugeChange')
+data.setCell(2, 3, 16056);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifySignUpPageFuncationlity')
+data.setCell(3, 2, 'testpack.VerifySignupAndLangaugeChange')
+data.setCell(3, 3, 13449);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyForgetAccLink')
+data.setCell(4, 2, 'testpack.VerifyForgetAccLinkAndLogInPage')
+data.setCell(4, 3, 12513);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyLoginFuncationlity')
+data.setCell(5, 2, 'testpack.VerifyForgetAccLinkAndLogInPage')
+data.setCell(5, 3, 11248);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifySignUpPageFuncationlity')
+data.setCell(6, 2, 'testpack.VerifySignupAndLangaugeChange')
+data.setCell(6, 3, 9332);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyLoginFuncationlity')
+data.setCell(7, 2, 'testpack.VerifyForgetAccLinkAndLogInPage')
+data.setCell(7, 3, 4024);
+window.suiteTableData['FBRegression']= { tableData: data, tableDiv: 'times-div-FBRegression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-FBRegression">
+              </div> <!-- times-div-FBRegression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FBRegression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FBRegression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Chrome)</span>
+                <span class="method-start">25842 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMobjects</span>
+                <span class="method-start">43269 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMobjects</span>
+                <span class="method-start">43269 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">44194 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">44194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyForgetAccLink</span>
+                <span class="method-start">59256 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifySignUpPageFuncationlity</span>
+                <span class="method-start">59333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifySignUpPageFuncationlity status=SUCCESS method=VerifySignupAndLangaugeChange.V...)</span>
+                <span class="method-start">72791 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">72935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLangaugeChangeFuncationality</span>
+                <span class="method-start">74542 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifyForgetAccLink status=FAILURE method=VerifyForgetAccLinkAndLogInPage.VerifyFor...)</span>
+                <span class="method-start">78998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">81408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginFuncationlity</span>
+                <span class="method-start">82297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifyLoginFuncationlity status=SUCCESS method=VerifyForgetAccLinkAndLogInPage.Veri...)</span>
+                <span class="method-start">93547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObject</span>
+                <span class="method-start">93548 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifyLangaugeChangeFuncationality status=SUCCESS method=VerifySignupAndLangaugeCha...)</span>
+                <span class="method-start">97460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObject</span>
+                <span class="method-start">97461 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">97463 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">102089 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Opera)</span>
+                <span class="method-start">104011 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Opera)</span>
+                <span class="method-start">114205 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMobjects</span>
+                <span class="method-start">125226 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMobjects</span>
+                <span class="method-start">125227 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">125229 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">125234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySignUpPageFuncationlity</span>
+                <span class="method-start">143913 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyForgetAccLink</span>
+                <span class="method-start">143916 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifySignUpPageFuncationlity status=SUCCESS method=VerifySignupAndLangaugeChange.V...)</span>
+                <span class="method-start">153246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">153247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLangaugeChangeFuncationality</span>
+                <span class="method-start">154932 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifyForgetAccLink status=FAILURE method=VerifyForgetAccLinkAndLogInPage.VerifyFor...)</span>
+                <span class="method-start">156431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openFacebookHomePage</span>
+                <span class="method-start">156603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginFuncationlity</span>
+                <span class="method-start">159538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifyLoginFuncationlity status=SUCCESS method=VerifyForgetAccLinkAndLogInPage.Veri...)</span>
+                <span class="method-start">163563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObject</span>
+                <span class="method-start">163567 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromFacebook([TestResult name=VerifyLangaugeChangeFuncationality status=SUCCESS method=VerifySignupAndLangaugeCha...)</span>
+                <span class="method-start">170991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">clearObject</span>
+                <span class="method-start">170991 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifyForgetAccLinkAndLogInPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">170994 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpack.VerifySignupAndLangaugeChange</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">178346 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
