@@ -25,4 +25,12 @@ public class Base {
 		
 		return driver;
 	}
+//	public static WebDriver openOpreaBrowser()
+//	{
+//		System.setProperty("webdriver.opera.driver","C:\\Users\\Smart\\Desktop\\Automation\\opera\\operadriver_win64\\operadriver.exe");
+//
+//		WebDriver driver=new OperaDriver(); 
+//		
+//		return driver;
+//	}
 }
